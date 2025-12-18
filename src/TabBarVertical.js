@@ -411,6 +411,7 @@ export default class TabBarVertical<T: *> extends React.Component<
           >
             {routes.map((route, i) => {
               const outputRange = inputRange.map(
+                // eslint-disable-next-line prettier/prettier
                 inputIndex => (inputIndex === i ? 1 : 0.7)
               );
               const opacity = Animated.multiply(

@@ -33,9 +33,6 @@
     "url": "https://github.com/DaKaZ/react-native-vertical-tab-view/issues"
   },
   "homepage": "https://github.com/DaKaZ/react-native-vertical-tab-view.git#readme",
-  "dependencies": {
-    "react-native-tab-view": "^1.0.2"
-  },
   "devDependencies": {
     "@expo/vector-icons": "^6.3.1",
     "babel-jest": "^22.4.4",
@@ -53,11 +50,13 @@
     "react": "16.3.1",
     "react-dom": "16.3.1",
     "react-native": "~0.55.4",
-    "react-test-renderer": "16.3.1"
+    "react-test-renderer": "16.3.1",
+    "stream-browserify": "^3.0.0"
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-pager-view": ">=5.0.0"
   },
   "jest": {
     "preset": "react-native",
@@ -70,5 +69,9 @@
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
+  },
+  "dependencies": {
+    "react-native-pager-view": "^8.0.0",
+    "react-native-tab-view": "1.0.2"
   }
 }
